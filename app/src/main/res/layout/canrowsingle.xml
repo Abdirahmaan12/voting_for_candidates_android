@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="20dp"
+    android:layout_margin="5dp"
+    >
+
+    <TextView
+        android:id="@+id/txt_can_position_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gudoomiye"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+    <ImageView
+        android:id="@+id/can_img"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:src="@drawable/saample"
+        android:scaleType="fitXY"
+        tools:ignore="ExtraText"
+        android:layout_below="@+id/txt_can_position_name"/>
+
+
+    <TextView
+        android:id="@+id/txt_can_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mohamed ali faarah"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/can_img"
+        />
+
+    <TextView
+        android:id="@+id/txt_can_memo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cadaalad iyo sinaan"
+        android:paddingTop="2dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/txt_can_name"
+        />
+
+    <Button
+        android:id="@+id/btnvote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_can_memo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/btnback"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:text="Voter Now"
+        android:textColor="#F3EBEB"
+        android:textSize="16sp" />
+</RelativeLayout>
